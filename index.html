@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Trang Demo Bootstrap</title>
+
+  <!-- Bootstrap 5 CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+  <!-- Font Awesome (icon đẹp) -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet" />
+
+  <style>
+    body {
+      padding-top: 60px;
+    }
+    .hero {
+      background-color: #f8f9fa;
+      padding: 60px 20px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">🌟 TalentShow</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#">Trang chủ</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Giới thiệu</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Liên hệ</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <div class="hero">
+    <div class="container">
+      <h1 class="display-4">Chào mừng đến với TalentShow 🎤</h1>
+      <p class="lead">Nơi tỏa sáng tài năng của bạn.</p>
+      <a href="#" class="btn btn-primary btn-lg">Bắt đầu ngay</a>
+    </div>
+  </div>
+
+  <!-- Thẻ giới thiệu -->
+  <div class="container mt-5">
+    <div class="row text-center">
+      <div class="col-md-4">
+        <i class="fas fa-microphone-alt fa-3x mb-3 text-primary"></i>
+        <h4>Ca hát</h4>
+        <p>Thể hiện giọng ca trời phú của bạn và kết nối với cộng đồng yêu nhạc.</p>
+      </div>
+      <div class="col-md-4">
+        <i class="fas fa-dance fa-3x mb-3 text-success"></i>
+        <h4>Vũ đạo</h4>
+        <p>Trình diễn những bước nhảy sôi động và chia sẻ đam mê.</p>
+      </div>
+      <div class="col-md-4">
+        <i class="fas fa-star fa-3x mb-3 text-warning"></i>
+        <h4>Ngôi sao</h4>
+        <p>Khám phá tài năng và trở thành một hiện tượng mạng.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-3 mt-5">
+    &copy; 2025 TalentShow. All rights reserved.
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
